@@ -1,0 +1,14 @@
+<div class="app">
+    <h1>OMDBAPI Películas</h1>
+    <div class="search">
+        <input type="text" #movieSearchInput placeholder="Buscar...">
+        <!-- <input type="text" (keyup)="getMovies()" [(ngModel)]="nameMovie" placeholder="Buscar..."> -->
+        <!-- <img (click)="getMovies(nameMovie)" src="../../../assets/search.svg" alt="search"> -->
+    </div>
+    <div *ngIf="(movies$ | async) as movies; else empty" class="container">
+        <app-card-movie *ngFor="let movie of movies" [movie]="movie"></app-card-movie>
+    </div>
+    <ng-template #empty class="empty">
+        <h3>No se encontraron resultados</h3>
+    </ng-template>
+</div>
