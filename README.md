@@ -9,6 +9,9 @@
 - CSS
 - Google fonts
 
+![omdbapi](https://user-images.githubusercontent.com/86317658/203899196-146ca879-8e6e-441e-9bbb-c6bcc60ae6fd.png)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
