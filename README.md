@@ -1,7 +1,8 @@
 # Peliculas
+<p>:globe_with_meridians: https://sage-liger-8863fc.netlify.app/</p>
+<p>This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.</p>
+<p>Sistema web que hace uso de la api OMDbAPI para el consumo de información de películas.</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
-Sistema web que hace uso de la api OMDbAPI para el consumo de información de películas.
 - Angular
 - OMDbAPI Peliculas
 - HTML
